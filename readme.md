@@ -1,6 +1,6 @@
 # todo_rest_service
 simple rest application in golang with jwt authentication for apis and mysql as db  
-To run the application goto TODOSERVICE folder and run cmd :  
+To run the application goto folder with main.go and run cmd :  
 ```go run main.go todo.go todoHandlers.go tokenHandler.go dbHandler.go handleNull.go  ```  
 The application opens at HOSTNAME:8080.(tested at localhost as HOSTNAME)  
 ## List of apis 
