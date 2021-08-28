@@ -11,4 +11,4 @@ The application opens at HOSTNAME:8080.(tested at localhost as HOSTNAME)
 * **PUT** ``HOSTNAME:8080/todo/{id}`` UPDATE todo values for {id}
 * **DELETE** ``HOSTNAME:8080/todo/{id}`` DELETE todo based on {id}
 * **GET** ``HOSTNAME:8080//getToken`` GET JWT token to be used for all other apis
-## X-Security-Token is mandatory for all the api except /getToken
+## X-Security-Token is mandatory as header for all the api except /getToken
